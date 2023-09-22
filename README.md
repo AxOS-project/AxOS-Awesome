@@ -1,481 +1,161 @@
-<h1 align="center">
-    <div align="center">
-        <img src="assets/header.png" width=140>
-    </div>
-</h1>
+<a name="readme-top"></a>
 
 
+<!-- PROJECT SHIELDS -->
+<!--
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+-->
+
+
+<!-- PROJECT LOGO -->
+<br />
 <div align="center">
-    The <b>Arch Linux & AwesomeWM</b> dotfiles!<br>
+    <img src="https://user-images.githubusercontent.com/110931544/250184275-f5b3bcf2-8dac-4d08-9c93-f83f18150d43.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">AxOS Awesome Edition</h3>
+
+  <p align="center">
+    An awesome edition pof AxOS with a lightweight advanced environement!
+    <br />
+    <a href="https://levraiardox.github.io"><strong>Website »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/levraiardox/AxOS-Awesome/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/levraiardox/AxOS-Awesome/issues">Request Feature</a>
+  </p>
 </div>
 
-<br>
 
 
-<div align="center">
-    <a href="#features">Features</a>
-    ·
-    <a href="#setup">Setup</a>
-    ·
-    <a href="#keybinds">Keys</a>
-    ·
-    <a href="#modules">Mods</a>
-    ·
-    <a href="https://github.com/saimoomedits/dotfiles/wiki">Wiki</a>
-</div>
-
-<br>
-
-<br>
-
-## <samp><b>Welcome</b></samp> <img src="https://img.shields.io/github/stars/saimoomedits/dotfiles?color=%238AB4F8&labelColor=101012&label=stars&style=for-the-badge" width=100 align="right" />
-
-<br>
-
-<table align="right">
-  <tr>
-    <td align="center">
-      <sup>
-            <samp>
-                  If you like this setup, please drop  a star.<br>
-                  I really appreciate it.
-                  Thanks!
-            </samp>
-      </sup>
-    </td>
-  </tr>
-
-
-
-<table>
-
-Hi there, thanks for dropping by 💙, 
-
-these are my Arch Linux and AwesomeWM configuration files.
-
-You can use this repository as a **[rice](https://thatnixguy.github.io/posts/ricing/)** reference.
-
-Or use them as a daily driver.
-
-</table>
-
-<br>
-
-### <samp>Setup Info</samp><img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" width=110 align="right" /><img src="https://camo.githubusercontent.com/405a9e7cb76ab04fbf7156144cfa5f893e4679c3e49e4abfc265b6680c855ad9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f417765736f6d65776d2d3663356438372e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d4c7561266c6f676f436f6c6f723d7768697465" width=120 align="right" />
-
-<br>
-
-<img src="assets/preview.png" width=350 align="right">
-
-
-
-| task              | name                   |
-| ----------------- | ---------------------- |
-| wm                | [awesome-git](https://github.com/awesomeWM/awesome)                                      |
-| terminal          | [alacritty](https://github.com/alacritty/alacritty)                                      |
-| music player      | [mpd](https://www.musicpd.org/) & [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)          |
-| Light Gtk theme   | [Cutefish-light](https://cutefish-ubuntu.github.io/)                            |
-| Dark Gtk theme    | Awesthetic-gtk
-| bar               | [wibar](https://awesomewm.org/apidoc/popups_and_bars/awful.wibar.html)                   |
-| compositor        | [picom-git](https://github.com/yshui/picom)                                  | 
-
-<br>
-
-
-
-<details close>
-    <summary><samp><b>more info</b></samp></summary>
-
-
-<br>
-
-* **Fonts?**
-    * as for fonts, the setup uses 4 fonts in total
-        - *Roboto* - main ui font
-        - *Material Icons* - for icons
-        - *Iosevka* - Terminal/Monospace font
-        - *JetbrainsMono NF* - idk
-
-<br>
-
-* **gaps/border/titlebar**
-    * **titlebars**
-        * you can edit `layout/decorations/init.lua` to emend/modify the global titlebar.
-    * **borders**
-        * border size can be change in `theme/ui_vars.lua`, there is a `border_size`.
-    * **gaps**
-        * Gaps can also be changed in `theme/ui_vars.lua`.
-
-<br>
-
-* **custom theme?**
-    * for dark, edit `theme/colors/dark.lua`
-    * for light, edit `theme/colors/light.lua`
-
-<br>
-
-
-
-<br>
-
-* **rounded corners**
-    * by default, windows are rounded with awesome-wm's `client.shape` property,
-    * if you want to use picom instead, do the following,
-
-        - edit `config/others.lua`
-        - scroll down to line `252` 
-        - either, comment it out or remove that line
-        - this will disable rounded windows with awesomeWM
-<br>
-
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#Todo">Todo</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
 </details>
 
 
-<br>
 
----
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-<br>
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+Imagine an operating system that combines elegance with performance, where your computer becomes a canvas for your digital creations. AxOS Awesome Edition achieves just that with its use of the lightweight window manager known as AwesomeWM. It's as sleek and efficient as a Parisian café, offering a truly unique computing experience.
 
-## <samp><b>features</b></samp>
+Features:
+* **Simplicity with Style:** The user interface is as clean and elegant as the Eiffel Tower at twilight. Say goodbye to clutter and hello to productivity.
+* **Blazing-Fast Performance:** AxOS Awesome Edition is designed to make your hardware sing. It's so fast, you'll think you're riding the TGV!
+* **Seamless Multitasking:** Jump between tasks effortlessly with our intuitive window management. It's so smooth, it's like a well-practiced French waltz.
+  
+**AxOS Awesome Edition** is not your typical operating system. It's more like a virtual tour de France for your computer, brought to you by a passionate developer with a knack for making technology both powerful and elegant.
 
-<br>
 
-* Control Center
-* Vertical Bar
-* Brightness / Volume OSD
-* Lockscreen
-* Tasklist Dock
-* Light/Dark gtk and zathura theme
-* Minimal exitscreen
-* Control state saver
-* Better Ncmpcpp ui
-* Battery notifier
-* And many more!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<br>
 
-<details close>
-    <summary><samp>Show previews</samp></summary>
 
-<br>
+<!-- GETTING STARTED -->
+## Getting Started
 
-* minimalstic vertical bar
+⚠️ **WARNING! AxOS Awesome Edition is still in Alpha release ! you WILL encounter bugs** ⚠️
 
-    <br>
+### Prerequisites
 
-    <img src="assets/bar.png" height=500>
+THere is what you will need to install and use proprely AxOS Awesome Edition:
+* **Great knowledges in Linux:** AxOS Awesome run on an advanced window manager. Most of actions are currently avariable via command lines.
+* **A usb key** (or another external drive) of minimum **2gb** in order to install AxOS.
+* **Risk acceptence** (AxOS Awesome is still in Alpha. Install at your own risks)
 
-<br>
 
-* expandable control center
+### Installation
 
-    <br>
+AxOS can be installed like every other linux distributions:
+1. Get the ISO
+2. Flash your drive with the ISO
+3. Boot on your ISO
+4. You know what's next (or not, but you will see)
 
-    <img src="assets/control-center.gif" height=500>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<br>
 
-* Minimal notifcations with text actions
 
-    <br>
 
-    <img src="assets/notif.png" width=400>
+<!-- Todo -->
+## Todo
 
-<br>
+- [x] Main apparence
+- [x] Add Lightdm web greeter (it's beautiful)
+- [ ] Add notificaton center 
+- [ ] Add more system notifications
+- [ ] Fix sound popup
+- [ ] Add more colors to Battery widget (even 5% is green lol)
+- [ ] Smoother animations
+- [ ] Better performances
+      
+Yeah i know the list is huge...
 
-* custom ncmpcpp UI
 
-    <br>
+See the [open issues](https://github.com/LeVraiArdox/AxOS-Awesome/issues) for a full list of proposed features (and known issues).
 
-    <img src="assets/ncmpcpp.png" width=500>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<br>
 
-* exit screen
 
-    <br>
+<!-- CONTRIBUTING -->
+## Contributing
 
-    <img src="assets/exitscreen.png" width=500>
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-<br>
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-* lockscreen
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-    <br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-    <img src="assets/lockscreen.png" width=500>
 
-<br>
 
-* Minimal tasklist dock with pinned apps
+<!-- LICENSE -->
+## License
 
-    <br>
+Distributed under the GNU Public License. See `LICENSE.txt` for more information.
 
-    <img src="assets/dock.png" width=300>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<br>
 
-* Wip vscode theme
 
-    <br>
+<!-- CONTACT -->
+## Contact
 
-    <img src="assets/vscode.png" width=500>
+Ardox (me) -  LVArdox@proton.me
 
-<br>
+Project Link: You are at
 
-</details>
-
-<br>
-
----
-
-<br>
-
-## <samp><b>Setup</b></samp>
-
-<br>
-
-
-<details open>
-<summary><samp>Instructions</samp></summary>
-
-<br>
-
-**⚠️ NOTE: The following instructions are for Arch/Arch-based system ⚠️**
-
-<br>
-
-1. Install packages / dependencies
-    ```sh
-    yay -S picom-git awesome-git acpid git mpd ncmpcpp wmctrl \
-    firefox lxappearance gucharmap thunar alacritty neovim polkit-gnome \
-    xdotool xclip scrot brightnessctl alsa-utils pulseaudio jq acpi rofi \
-    inotify-tools zsh mpdris2 bluez bluez-utils bluez-plugins acpi acpi_call \
-    playerctl redshift cutefish-cursor-themes-git cutefish-icons upower xorg xorg-init tar
-    ```
-
-2. Make backup of directories that will be changed (optional)
-    ```sh
-    cd 
-    mkdir .backup_config
-    cp -r ~/.config/* .backup_config/
-    cp -r ~/.mpd .backup_config/
-    cp -r ~/.ncmpcpp .backup_config/
-    cp -r ~/.themes .backup_config/
-    ```
-
-3. Clone this repo
-    ```sh
-    cd
-    clear
-    git clone --recurse-submodules https://github.com/saimoomedits/dotfiles.git
-    cd dotfiles
-    ```
-
-4. Copy the dotfiles in required places
-    ```sh
-    cp -rf .config/* ~/.config/
-    cp -rf extras/mpd ~/.mpd
-    cp -rf extras/ncmpcpp ~/.ncmpcpp
-    cp -rf extras/fonts ~/.fonts
-    cp -rf extras/scripts ~/.scripts
-    cp -rf extras/oh-my-zsh ~/.oh-my-zsh
-    ```
-
-5. Extract Gtk-theme
-    ```sh
-    mkdir ~/.themes
-    cp ./themes/* ~/.themes
-    cd ~/.themes
-    tar -xf Awesthetic.tar
-    tar -xf Cutefish-light-modified.tar
-    rm Awesthetic.tar Cutefish-light-modified.tar
-    ```
-
-6. make some files executeable
-    ```sh
-    cd ~/.config/awesome/misc
-    sudo chmod -R +x *
-    ```
-    
-7. Startup services
-    ```sh
-    systemctl --user enable mpd
-    sudo systemctl enable bluetooth
-    ```
-
-8. Done
-    * if your already logged into awesome, reload it
-    * else, Login to AwesomeWM 
-
-<br>
-
-**Enjoy :smile:**
-
-<br>
-
-*   <details close>
-    <summary><samp><b>Vscode theme</b></samp></summary>
-
-    - copy `extras/vscode-theme/Awesthetic` to `~/.vscode/extentions/`.
-    - now, in VScode, open the Color Theme picker with `File > Preferences > Color Theme`.
-    - select `Awesthetic` theme.
-
-    </details>
-
-
-
-</details>    
-
-<br>
-
----
-
-<br>
-
-## <samp><b>Keybinds</b></samp>
-
-<br>
-
-* you can get a list of keybindings [here in the wiki](https://github.com/saimoomedits/dotfiles/wiki/Keybinds).
-* the dock can be opened by hovering bottom edge of primary screen
-* the control-Center can either be opened by keybinding `super(windows key) + a` or <br>
-    by click on the `control center` icon in bar
-
-<br>
-
----
-
-<br>
-
-## <samp><b>Modules</b></samp>
-
-<br>
-
-1. **[Rubato](https://github.com/andOrlando/rubato)**
-    * Created by [andOrlando](https://github.com/andOrnaldo)
-    * Basically, Allows you to animate a number value in AwesomeWM
-
-2. **[Bling](https://github.com/BlingCorp/bling)**
-    * Created by the [BlingCorp](https://github.com/BlingCorp) community
-    * Adds a lot more cool modules to AwesomeWM
-
-3. **[Layout-machi](https://github.com/xinhaoyuan/layout-machi)**
-    * Created by [xinhaoyuan](https://github.com/xinhaoyaun)
-    * Manual layout with interactive editor
-
-4. **[Upower battery](https://github.com/Aire-One/awesome-battery_widget.git)**
-    * Created by [Aire-One](https://github.com/Aire-One)
-    * A UPowerGlib based battery widget for the AwesomeWM.
-
-5. **Awesome-Dock**
-    * Created by [me](https://github.com/saimoomedits)....
-    * A tasklist dock with pinned apps
-    * you can use it in your config (hopefully)
-    * but there are still lots of things to improve
-    
-    <br>
-
-    <details close>
-    <summary><samp>More info</samp></summary>
-
-    <br>
-
-    * you can use this dock in your awesome config. but...
-
-    * the catch is that. you need a spcific icon-theme in `/usr/share/icons` for pinned apps to work properly<br>
-    but if your using the exact rice as mine, you don't have to worry about it
-
-    <br>
-
-    * You can customize the dock's colors, size, spacing, hide-timeout, etc in `theme/init.lua`
-
-    <br>
-
-    * example:
-        ```lua
-        theme.awesome_dock_size = 80
-        theme.awesome_dock_pinned = {
-            {"xterm", "terminal"},
-            {"spotify", "spotify"},
-            {"xterm"},
-            {"thunar"}
-        }
-        theme.awesome_dock_color_active = theme.accent
-        theme.awesome_dock_color_inactive = theme.fg_color .. "66"
-        theme.awesome_dock_color_minimized = theme.accent .. "33"
-        theme.awesome_dock_color_hover = theme.fg_color .. "33"
-        theme.awesome_dock_color_bg = theme.bg_color
-        theme.awesome_dock_disabled = false
-        theme.awesome_dock_spacing = 10
-        theme.awesome_dock_timeout = 1.2
-        ```
-    
-    * to add more pinned apps you can do the following in `theme.lua`:
-        ```lua
-        --[[ 
-            table example:
-            { "app command", "app class"}
-
-            * `app command` is well. the command that launches that app
-            * `app class` is the class or name of the app for icons.
-        ]]
-        theme.awesome_dock_pinned = {
-            {"spotify", "spotify"},
-            {"xterm"},
-            {"thunar"}
-        }
-        ```
-
-        </details>
-
-    
-<br>
-
----
-
-<br>
-
-## <samp><b>Todos</b></samp>
-
-<br>
-
-- [ ] Make dock's icon-handler identify global icon-theme
-- [x] Improve Ncmpcpp decorations
-- [x] Improve Notifications
-- [ ] Polish Awesthetic-gtk-theme
-   
-<br>
-
----
-
-<br>
-
-## <samp><b>Credits</b></samp>
-
-* special thanks to :heart:
-    * [moonlight-coffee](https://github.com/Moonlight-Coffee)
-    * [justleoo](https://github.com/justleoo)
-
-<br>
-
-* also these 🌃 awesome people!
-    * [Javacafe01](https://github.com/javacafe01)
-    * [manilarome](https://github.com/manilarome)
-    * [elenapan](https://github.com/elenapan)
-<br>
-
-* extras :sparkles:
-    * [awesomeWM](https://github.com/awesomewm/) - The awesome Window Manager
-    * [Cutefish](https://cutefish-ubuntu.github.io/) - CutefishOS
-
-<br>
-
-* contributers
-
-    <a href="https://github.com/saimoomedits/dotfiles/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=saimoomedits/dotfiles" width=140/>
-    </a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
