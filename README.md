@@ -21,7 +21,7 @@
   <h3 align="center">AxOS Awesome Edition</h3>
 
   <p align="center">
-    An awesome edition pof AxOS with a lightweight advanced environement!
+    A awesome edition of AxOS with a lightweight advanced environement!
     <br />
     <a href="https://levraiardox.github.io"><strong>Website »</strong></a>
     <br />
