@@ -113,6 +113,7 @@ AxOS can be installed like every other linux distributions:
 - [ ] Add more colors to Battery widget (even 5% is green lol)
 - [ ] Smoother animations
 - [ ] Better performances
+- [ ] Better wifi apparence (i currently use nmtui)
       
 Yeah i know the list is huge...
 
