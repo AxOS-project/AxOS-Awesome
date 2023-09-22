@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![screensht_23-09-22_21:16:59](https://github.com/LeVraiArdox/AxOS-Awesome/assets/110931544/7c190e32-fd38-4e01-ab85-e44ccb9d5fe1)
 
 Imagine an operating system that combines elegance with performance, where your computer becomes a canvas for your digital creations. AxOS Awesome Edition achieves just that with its use of the lightweight window manager known as AwesomeWM. It's as sleek and efficient as a Parisian café, offering a truly unique computing experience.
 
