@@ -119,6 +119,7 @@ AxOS can be installed like every other linux distributions:
 - [ ] Better performances
 - [ ] Better wifi apparence (i currently use nmtui)
 - [ ] Create the image
+- [ ] Add AxOS Awesome on the offical AxOS website
       
 Yeah i know the list is huge...
 
