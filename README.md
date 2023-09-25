@@ -29,6 +29,9 @@
     <a href="https://github.com/levraiardox/AxOS-Awesome/issues">Report Bug</a>
     ·
     <a href="https://github.com/levraiardox/AxOS-Awesome/issues">Request Feature</a>
+    <br />
+    <br />
+    ⚠️ Not avariable yet, because not finished yet!
   </p>
 </div>
 
