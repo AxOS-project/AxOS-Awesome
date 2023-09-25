@@ -107,6 +107,7 @@ AxOS can be installed like every other linux distributions:
 
 - [x] Main apparence
 - [x] Add Lightdm web greeter (it's beautiful)
+- [x] Upload Mirrors
 - [ ] Add notificaton center 
 - [ ] Add more system notifications
 - [ ] Fix sound popup
@@ -114,6 +115,7 @@ AxOS can be installed like every other linux distributions:
 - [ ] Smoother animations
 - [ ] Better performances
 - [ ] Better wifi apparence (i currently use nmtui)
+- [ ] Create the image
       
 Yeah i know the list is huge...
 
