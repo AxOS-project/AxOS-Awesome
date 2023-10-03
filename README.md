@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/110931544/250184275-f5b3bcf2-8dac-4d08-9c93-f83f18150d43.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/LeVraiArdox/AxOS-Awesome/assets/130380847/f3eab4c4-9d11-4d0d-bdef-8c5f09f025dc.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">AxOS Awesome Edition</h3>
