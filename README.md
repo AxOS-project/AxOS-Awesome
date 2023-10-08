@@ -109,18 +109,12 @@ AxOS can be installed like every other linux distributions:
 <!-- Todo -->
 ## Todo
 
-- [x] Main apparence
-- [x] Add Lightdm web greeter (it's beautiful)
-- [x] Upload Mirrors
 - [ ] Add notificaton center 
 - [ ] Add more system notifications
 - [ ] Fix sound popup
 - [ ] Add more colors to Battery widget (even 5% is green lol)
-- [ ] Smoother animations
-- [ ] Better performances
 - [ ] Better wifi apparence (i currently use nmtui)
 - [ ] Create the image
-- [ ] Add AxOS Awesome on the offical AxOS website
 - [ ] make some logos updatable with system trays
       
 Yeah i know the list is huge...
