@@ -109,13 +109,13 @@ AxOS can be installed like every other linux distributions:
 <!-- Todo -->
 ## Todo
 
-- [ ] Add notificaton center 
+- [x] Add notificaton center 
 - [ ] Add more system notifications
-- [ ] Fix sound popup
+- [x] Fix sound popup
 - [ ] Add more colors to Battery widget (even 5% is green lol)
 - [ ] Better wifi apparence (i currently use nmtui)
-- [ ] Create the image
-- [ ] make some logos updatable with system trays
+- [x] Create the image
+- [x] make some logos updatable with system trays
       
 Yeah i know the list is huge...
 
