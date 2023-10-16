@@ -62,7 +62,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![screensht_23-09-22_21:16:59](https://github.com/LeVraiArdox/AxOS-Awesome/assets/110931544/e9c61409-5ffd-45ec-91bd-5541a3a72d85)
+![screensht_23-10-16_16:06:08](https://github.com/AxOS-project/AxOS-Awesome/assets/110931544/51aedadf-2ef7-488f-80da-0e1bf72a48f3)
 
 
 
