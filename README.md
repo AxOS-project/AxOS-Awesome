@@ -30,7 +30,7 @@
     ·
     <a href="https://github.com/levraiardox/AxOS-Awesome/issues">Request Feature</a>
     .
-    <a href="https://github.com/AxOS-project/AxOS-Awesome/releases/tag/v0.1-TEST">Download</a>
+    <a href="https://github.com/AxOS-project/AxOS-Awesome/releases/">Download</a>
     <br />
     <br />
   </p>
