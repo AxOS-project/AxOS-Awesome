@@ -163,3 +163,7 @@ Project Link: You are at
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Ricing references
+* <a href="https://github.com/saimoomedits/dotfiles">@saimoomedits</a>
+* <a href="https://github.com/Sinomor/dotfiles">@sinomor</a>
+* i think it's all
