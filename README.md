@@ -37,6 +37,12 @@
 </div>
 
 
+> [!IMPORTANT]
+> **Developement in pause**: I am working on AxOS plasma, some AxOS plasma updates are aplied in AxOS awesome!
+
+
+> [!CAUTION]
+> Live CD is not working yet, do not try until this message is here
 
 <!-- TABLE OF CONTENTS -->
 <details>
