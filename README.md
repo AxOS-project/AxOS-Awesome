@@ -13,6 +13,7 @@
 
 
 <!-- PROJECT LOGO -->
+
 <br />
 <div align="center">
     <img src="https://github.com/LeVraiArdox/AxOS-Awesome/assets/130380847/f3eab4c4-9d11-4d0d-bdef-8c5f09f025dc.png" alt="Logo" width="100" height="100">
@@ -38,7 +39,7 @@
 
 
 > [!IMPORTANT]
-> **Developement in pause**: I am working on AxOS plasma, some AxOS plasma updates are aplied in AxOS awesome!
+> ISO in test only! You cannot install yet, but you can try and preview
 
 
 > [!CAUTION]
@@ -69,16 +70,16 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![screensht_23-10-16_16:06:08](https://github.com/AxOS-project/AxOS-Awesome/assets/110931544/51aedadf-2ef7-488f-80da-0e1bf72a48f3)
+![2024-05-15_22-16](https://github.com/AxOS-project/AxOS-Awesome/assets/110931544/a8f14628-4b62-4c01-a640-a6179e1623da)
 
 
 
-Imagine an operating system that combines elegance with performance, where your computer becomes a canvas for your digital creations. AxOS Awesome Edition achieves just that with its use of the lightweight window manager known as AwesomeWM. It's as sleek and efficient as a Parisian café, offering a truly unique computing experience.
+Imagine an operating system that combines elegance with performance, where your computer becomes a canvas for your digital creations. AxOS Awesome Edition achieves just that with its use of the lightweight window manager known as AwesomeWM. It's sleek and efficient, offering a truly unique computing experience.
 
 Features:
 * **Simplicity with Style:** The user interface is as clean and elegant as the Eiffel Tower at twilight. Say goodbye to clutter and hello to productivity.
-* **Blazing-Fast Performance:** AxOS Awesome Edition is designed to make your hardware sing. It's so fast, you'll think you're riding the TGV!
-* **Seamless Multitasking:** Jump between tasks effortlessly with our intuitive window management. It's so smooth, it's like a well-practiced French waltz.
+* **Blazing-Fast Performance:** AxOS Awesome Edition is designed to make your hardware sing!
+* **Seamless Multitasking:** Jump between tasks effortlessly with AwesomeWM's intuitive window management.
   
 **AxOS Awesome Edition** is not your typical operating system. It's more like a virtual tour de France for your computer, brought to you by a passionate developer with a knack for making technology both powerful and elegant.
 
@@ -90,23 +91,26 @@ Features:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-⚠️ **WARNING! AxOS Awesome Edition is still in Alpha release ! you WILL encounter bugs** ⚠️
+⚠️ **WARNING! AxOS Awesome Edition is not fully stable ! you WILL encounter bugs** ⚠️
 
 ### Prerequisites
 
 THere is what you will need to install and use proprely AxOS Awesome Edition:
-* **Great knowledges in Linux:** AxOS Awesome run on an advanced window manager. Most of actions are currently avariable via command lines.
+* **Great knowledges in Linux:** AxOS Awesome run on an advanced window manager. Most of actions are only avariable via command lines and keyboard shortcuts.
 * **A usb key** (or another external drive) of minimum **2gb** in order to install AxOS.
-* **Risk acceptence** (AxOS Awesome is still in Alpha. Install at your own risks)
+<!--* **Risk acceptence** (AxOS Awesome is still in Alpha. Install at your own risks)-->
 
 
 ### Installation
+> [!IMPORTANT]
+> ISO in test only! You cannot install yet, but you can try and preview
 
-AxOS can be installed like every other linux distributions:
+
+<!--AxOS can be installed like every other linux distributions:
 1. Get the ISO
 2. Flash your drive with the ISO
 3. Boot on your ISO
-4. You know what's next (or not, but you will see)
+4. You know what's next (or not, but you will see)-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,18 +120,13 @@ AxOS can be installed like every other linux distributions:
 <!-- Todo -->
 ## Todo
 
-- [x] Add notificaton center 
+- [ ] Add notificaton center 
 - [ ] Add more system notifications
-- [x] Fix sound popup
-- [ ] Add more colors to Battery widget (even 5% is green lol)
-- [ ] Better wifi apparence (i currently use nmtui)
-- [x] Create the image
-- [x] make some logos updatable with system trays
-      
-Yeah i know the list is huge...
+- [ ] Better wifi apparence (currently uses nmtui)
+- [ ] Make it installable
 
-
-See the [open issues](https://github.com/LeVraiArdox/AxOS-Awesome/issues) for a full list of proposed features (and known issues).
+If you have any suggestions, feel free to ask via issues or <a href="mailto:ardox@axos-project.com">email</a>.
+!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,13 +162,11 @@ Distributed under the GNU Public License. See `LICENSE.txt` for more information
 <!-- CONTACT -->
 ## Contact
 
-Ardox (me) -  LVArdox@proton.me
+Ardox (me) -   <a href="mailto:ardox@axos-project.com">email</a>
 
 Project Link: You are at
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Ricing references
-* <a href="https://github.com/saimoomedits/dotfiles">@saimoomedits</a>
-* <a href="https://github.com/Sinomor/dotfiles">@sinomor</a>
-* i think it's all
+* <a href="https://github.com/Manas140/dotfiles">@Manas140</a> (I literally took his rice, and edited it a bit)
