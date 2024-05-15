@@ -43,7 +43,7 @@
 
 
 > [!CAUTION]
-> Live CD is not working yet, do not try until this message is here
+> Live CD is not here yet, wait a few days until i build everything
 
 <!-- TABLE OF CONTENTS -->
 <details>
