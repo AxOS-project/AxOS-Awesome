@@ -24,12 +24,12 @@
   <p align="center">
     A awesome edition of AxOS with a lightweight advanced environement!
     <br />
-    <a href="https://levraiardox.github.io"><strong>Website »</strong></a>
+    <a href="https://www.axos-project.com"><strong>Website »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/levraiardox/AxOS-Awesome/issues">Report Bug</a>
+    <a href="https://github.com/axos-project/AxOS-Awesome/issues">Report Bug</a>
     ·
-    <a href="https://github.com/levraiardox/AxOS-Awesome/issues">Request Feature</a>
+    <a href="https://github.com/axos-project/AxOS-Awesome/issues">Request Feature</a>
     .
     <a href="https://github.com/AxOS-project/AxOS-Awesome/releases/">Download</a>
     <br />
