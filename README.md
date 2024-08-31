@@ -85,7 +85,7 @@ Features:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-⚠️ **WARNING! AxOS Awesome Edition is not fully stable ! you WILL encounter bugs** ⚠️
+⚠️ **WARNING! AxOS Awesome Edition is not fully stable ! you may encounter bugs** ⚠️
 
 ### Prerequisites
 
@@ -112,7 +112,7 @@ AxOS can be installed like every other linux distributions:
 <!-- Todo -->
 ## Todo
 
-- [ ] Add notificaton center 
+- [ ] Add notificaton center
 - [ ] Better wifi apparence (currently uses nmtui)
 - [ ] Add more widgets
 - [ ] Make a settings app
@@ -145,7 +145,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU Public License. See `LICENSE.txt` for more information.
+Distributed under the GNU Public License. See `LICENSE` file for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

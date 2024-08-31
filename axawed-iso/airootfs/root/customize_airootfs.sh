@@ -5,6 +5,16 @@
 set -e -u
 
 sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+locale-gen
+
+sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
+
+# nsswitch.conf settings
+# * Avahi : add 'mdns_minimal'
+# * Winbind : add 'wins'
+sed -i '/^hosts:/ {
+        s/\(resolve\)/mdns_minimal \[NOTFOUND=return\] \1/
+        s/\(dns\)$/\1 wins/ }' /etc/nsswitch.conf
 
 # Enable service when available
 { [[ -e /usr/lib/systemd/system/bluetooth.service            ]] && systemctl enable bluetooth.service;
@@ -13,10 +23,11 @@ sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
   [[ -e /usr/lib/systemd/system/cups.service                 ]] && systemctl enable cups.service;
   [[ -e /usr/lib/systemd/system/smb.service                  ]] && systemctl enable smb.service;
   [[ -e /usr/lib/systemd/system/winbind.service              ]] && systemctl enable winbind.service;
+  [[ -e /usr/lib/systemd/system/ntpd.service 	             ]] && systemctl enable ntpd.service;
 } > /dev/null 2>&1
 
 # Set sddm display-manager
-systemctl enable sddm.service
+ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.service
 
 # Add live user
 # * groups member
@@ -25,3 +36,7 @@ systemctl enable sddm.service
 useradd -m -G 'wheel' -s /bin/bash live
 sed -i 's/^\(live:\)!:/\1:/' /etc/shadow
 sed -i 's/^#\s\(%wheel\s.*NOPASSWD\)/\1/' /etc/sudoers
+
+# Localtime set
+
+ln -sf /usr/share/zoneinfo/UTC /etc/localtime

@@ -5,7 +5,7 @@ iso_name="AxOS-Awesome"
 iso_label="AxOS-Awesome"
 iso_publisher="Ardox <ardox@axos-project.com>"
 iso_application="AxOS Live/Rescue DVD"
-iso_version="24.06"
+iso_version="24.09"
 install_dir="axos"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
@@ -25,6 +25,6 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
-
+  ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
 )
 
