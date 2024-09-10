@@ -131,41 +131,47 @@ zsh
 
 
 
-##### Axawed environement
-awesome
-blueberry
-bluez
-elogind
-flameshot
-alacritty
-networkmanager
-playerctl
-pulsemixer
-redshift
-rofi
-xsettingsd
-zsh
+##### Calla environement
+awesome-git
+xorg-server
+pipewire-pulse
 brightnessctl
+picom
+maim
+st
+nemo
+networkmanager
+polkit-gnome
+cbatticon
+blueman
+xdg-user-dirs
+
+##### Fonts and icons
+ttf-roboto
+noto-fonts
+noto-fonts-cjk
+noto-fonts-extra
+noto-color-emoji-fontconfig
+papirus-icon-theme
+
+##### Others
+playerctl
+redshift
+xsettingsd
 firefox
-nautilus
 acpi
-rofi
-nwg-look
-gnome-calendar
 galculator
 baobab
 gnome-characters
 mousepad
-xdotool
 xterm
 wmctrl
 libinput-gestures
 sddm
 wireplumber
-pulseaudio
 bash-completion
 ntp
-
+kf6
 
 ##### AxOS packages
 about-axos
@@ -175,7 +181,6 @@ axos-hooks-extra
 plymouth-theme-axos
 calamares-config-axos
 axos/calamares-git
-#axos-nf
 
 axos/grub
 axos/plymouth
