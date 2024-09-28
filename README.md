@@ -32,6 +32,8 @@
     <a href="https://github.com/axos-project/AxOS-Awesome/issues">Request Feature</a>
     .
     <a href="https://github.com/AxOS-project/AxOS-Awesome/releases/">Download</a>
+    .
+    <a href="https://github.com/Stardust-kyun/calla">Calla desktop environement</a>
     <br />
     <br />
   </p>
@@ -66,7 +68,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![screenshot](screenshot.png)
+[showcase](https://github.com/Stardust-kyun/dotfiles/assets/56178655/d52b1338-b3f6-444e-b97c-59bdc2544414)
+
 
 
 
@@ -103,22 +106,6 @@ AxOS can be installed like every other linux distributions:
 3. Boot on your ISO
 4. Open the "Install system" app
 5. follow the instructions
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-<!-- Todo -->
-## Todo
-
-- [ ] Add notificaton center
-- [ ] Better wifi apparence (currently uses nmtui)
-- [ ] Add more widgets
-- [ ] Make a settings app
-
-If you have any suggestions, feel free to ask via issues or <a href="mailto:ardox@axos-project.com">email</a>.
-!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,4 +148,4 @@ Project Link: You are at
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Ricing references
-* <a href="https://github.com/Manas140/dotfiles">@Manas140</a> (Greatly inspired from him)
+* <a href="https://github.com/Stardust-kyun">@Stardust-kyun</a> (She made the Calla desktop environement)
