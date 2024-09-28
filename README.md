@@ -68,6 +68,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+![screenshot](https://raw.githubusercontent.com/Stardust-kyun/calla/refs/heads/main/src/latest.png)
+
 [showcase](https://github.com/Stardust-kyun/dotfiles/assets/56178655/d52b1338-b3f6-444e-b97c-59bdc2544414)
 
 
