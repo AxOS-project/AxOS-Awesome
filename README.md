@@ -40,8 +40,8 @@
 </div>
 
 
-> [!CAUTION]
-> Testing for reviews only, install at your own risk
+> [!IMPORTANT]
+> This repository is now unmaintained because of the united ISO. See [AxOS-project/AxOS](https://github.com/AxOS-project/AxOS)
 
 <!-- TABLE OF CONTENTS -->
 <details>
